@@ -10,13 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet var testView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        testView.backgroundColor = UIColor.orange
     }
     
     @IBAction func buttonClicked(_ sender: UIButton) {
         print("This is a Git tutorial")
+        testView.backgroundColor = UIColor.green
     }
 }
 
