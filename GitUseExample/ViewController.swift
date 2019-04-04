@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var message: UILabel!
     @IBAction func buttonClicked(_ sender: UIButton) {
-        print("This is a Git tutorial")
+        print("You finished!")
         testView.backgroundColor = UIColor.green
         message.text = "Rock & Roll"
     }
