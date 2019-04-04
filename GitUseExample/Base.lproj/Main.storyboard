@@ -18,24 +18,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suE-fV-Hrk">
-                                <rect key="frame" x="119" y="219" width="83" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suE-fV-Hrk">
+                                <rect key="frame" x="119" y="225" width="82" height="30"/>
                                 <state key="normal" title="Press me"/>
                                 <connections>
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xfu-xe-CgG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New label in my new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REw-Vy-4hO">
+                                <rect key="frame" x="53" y="134" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="suE-fV-Hrk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4C8-Bz-fyD"/>
+                            <constraint firstItem="REw-Vy-4hO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G8f-a1-5h8"/>
+                            <constraint firstItem="suE-fV-Hrk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nyx-aq-eC5"/>
                             <constraint firstItem="suE-fV-Hrk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="V4R-Uj-Pzz"/>
                             <constraint firstItem="suE-fV-Hrk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ase-yQ-FJO"/>
                             <constraint firstItem="suE-fV-Hrk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="piw-Nj-UCt"/>
+                            <constraint firstItem="suE-fV-Hrk" firstAttribute="top" secondItem="REw-Vy-4hO" secondAttribute="bottom" constant="70" id="vh8-yW-Ajg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="message" destination="REw-Vy-4hO" id="rfq-6S-QzX"/>
                         <outlet property="testView" destination="8bC-Xf-vdC" id="sfi-HB-rnp"/>
                     </connections>
                 </viewController>
