@@ -12,6 +12,7 @@
 		3D27DBF82255201500AA4A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27DBF62255201500AA4A9C /* Main.storyboard */; };
 		3D27DBFA2255201C00AA4A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D27DBF92255201C00AA4A9C /* Assets.xcassets */; };
 		3D27DBFD2255201C00AA4A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27DBFB2255201C00AA4A9C /* LaunchScreen.storyboard */; };
+		3D2E33092256020300FFA01E /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E33082256020300FFA01E /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3D27DBF92255201C00AA4A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D27DBFC2255201C00AA4A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D27DBFE2255201C00AA4A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2E33082256020300FFA01E /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapForItinerary.swift; path = ../MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3D27DBF22255201500AA4A9C /* AppDelegate.swift */,
 				3D27DBF42255201500AA4A9C /* ViewController.swift */,
+				3D2E33082256020300FFA01E /* MapForItinerary.swift */,
 				3D27DBF62255201500AA4A9C /* Main.storyboard */,
 				3D27DBF92255201C00AA4A9C /* Assets.xcassets */,
 				3D27DBFB2255201C00AA4A9C /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				3D27DBF52255201500AA4A9C /* ViewController.swift in Sources */,
 				3D27DBF32255201500AA4A9C /* AppDelegate.swift in Sources */,
+				3D2E33092256020300FFA01E /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
